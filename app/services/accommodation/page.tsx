@@ -23,7 +23,7 @@ export default function Page() {
 
 <p>⇒ Typically, a host family consists of an Irish family hosting a student in their home while the student attends classes in Ireland. Our college teaches grammar and new vocabulary. Students practice these skills by speaking and communicating with the host family. This makes classes fun and enjoyable, but also extremely effective.</p>
 
-<h3>Internship</h3>
+
 
 <p>Study and Work in Ireland</p>
 

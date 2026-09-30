@@ -31,7 +31,7 @@ export default function Page() {
 
 <p>Our teaching staff are specialists in their fields, and we are investing in exciting new technology to ensure that we will be the leading name in training and learning in Ireland. Everyone who works at SEDA is committed to making it a supportive and friendly place to learn. You will find inspiration and support here, as well as an excellent education.</p>
 
-<p>Our passion for the future is based on solid foundations. Our language learning courses are enhanced by the positive industry relationships we develop with our internship program. SEDA’s aim is to work closely with employers so interns gain the language skills they require to succeed in the real-life workplace.</p>
+
 
 <h3>Our Methodology</h3>
 

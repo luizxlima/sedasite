@@ -47,7 +47,7 @@ export default function Page() {
 
 <p>With Alicia Virginia Petit</p>
 
-<h3>Internship</h3>
+
 
 <p>Study and Work in Ireland</p>
     </PageLayout>
