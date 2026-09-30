@@ -1,16 +1,53 @@
 import type { Metadata } from "next";
+import PageLayout from "@/app/components/PageLayout";
 
-export const metadata: Metadata = { title: "Health Insurance" };
+export const metadata: Metadata = {
+  title: "Health Insurance | SEDA College",
+  description: "Learn more about Health Insurance at SEDA College.",
+};
 
 export default function Page() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-16">
-      <div className="bg-white rounded-2xl shadow-md border-t-4 border-seda-primary p-10">
-        <h1 className="text-4xl font-bold text-seda-teal mb-6">Health Insurance</h1>
-        <p className="text-lg text-gray-600">
-          Information on health insurance requirements and options for international students. Content coming soon.
-        </p>
-      </div>
-    </section>
+    <PageLayout title="Health Insurance" imageSrc="/images/staff-students.jpg" imageAlt="Health Insurance">
+<h2>HEALTH INSURANCE</h2>
+
+<p>All non-EU/EEA students are required to have appropriate medical insurance for the duration of their stay in Ireland. This coverage is designed to protect students in the event of a medical emergency or hospital stay, ensuring that unexpected healthcare costs are managed during their studies.</p>
+
+<p>What is health insurance?</p>
+
+<p>⇒ Health insurance covers your medical costs should you require treatment or emergency care while studying in Ireland. It ensures you have access to necessary healthcare without the burden of high out-of-pocket expenses.</p>
+
+<p>Do I need health insurance?</p>
+
+<p>Non-EU/EEA Students:</p>
+
+<p>⇒ It is a legal requirement for your student visa and your Irish Residence Permit (IRP) registration. You must provide proof of a government-approved private medical insurance policy that covers you for the entire duration of your stay. Without this, your permission to remain in Ireland will not be granted.</p>
+
+<p>EU/EEA & Swiss Students:</p>
+
+<p>⇒ You are entitled to public healthcare if you have a European Health Insurance Card (EHIC). This allows you to access public healthcare at the same rate as an Irish resident.</p>
+
+<p>Important Note: Public healthcare is not always free. A standard GP (doctor) visit in Ireland currently costs between €60 and €75.</p>
+
+<p>What is health insurance?</p>
+
+<p>⇒ Health insurance covers your medical costs should you require treatment or emergency care while studying in Ireland. It ensures you have access to necessary healthcare without the burden of high out-of-pocket expenses.</p>
+
+<p>Do I need health insurance?</p>
+
+<p>Non-EU/EEA Students:</p>
+
+<p>⇒ It is a legal requirement for your student visa and your Irish Residence Permit (IRP) registration. You must provide proof of a government-approved private medical insurance policy that covers you for the entire duration of your stay. Without this, your permission to remain in Ireland will not be granted.</p>
+
+<p>EU/EEA & Swiss Students:</p>
+
+<p>⇒ You are entitled to public healthcare if you have a European Health Insurance Card (EHIC). This allows you to access public healthcare at the same rate as an Irish resident.</p>
+
+<p>Important Note: Public healthcare is not always free. A standard GP (doctor) visit in Ireland currently costs between €60 and €75.</p>
+
+<h3>General English</h3>
+
+<p>Study and Work in Ireland</p>
+    </PageLayout>
   );
 }

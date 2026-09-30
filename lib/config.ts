@@ -1,0 +1,1 @@
+export const WEBHOOK_URL = "https://REPLACE-WITH-N8N-WEBHOOK-URL";
