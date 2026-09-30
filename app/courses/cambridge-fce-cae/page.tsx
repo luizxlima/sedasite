@@ -31,7 +31,7 @@ export default function CambridgeFCECAEPage() {
 
       <h2>How SEDA prepares you</h2>
       <p>
-        Our Cambridge exam preparation courses provide rigorous training in all five papers: Reading, Writing, Use of English, Listening, and Speaking. We use official preparation materials and conduct regular mock exams to ensure you are familiar with the timing and format of the test, while developing the advanced grammar and vocabulary required to pass.
+        Our Cambridge exam preparation courses provide rigorous training in all four papers: Reading and Use of English, Writing, Listening, and Speaking. We use official preparation materials and conduct regular mock exams to ensure you are familiar with the timing and format of the test, while developing the advanced grammar and vocabulary required to pass.
       </p>
 
       <h2>Exam Fees</h2>

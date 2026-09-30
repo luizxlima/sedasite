@@ -31,7 +31,7 @@ export default function TrinityISEPage() {
 
       <h2>How SEDA prepares you</h2>
       <p>
-        Our preparation classes integrate seamlessly with your General English study. We focus on the specific tasks required for both the Reading &amp; Writing module and the Speaking &amp; Listening module. You will practice portfolio building, collaborative conversation, and presentation skills to build your confidence ahead of the test.
+        Our preparation classes integrate seamlessly with your General English study. We focus on the specific tasks required for both the Reading &amp; Writing module and the Speaking &amp; Listening module. You will practise the reading-into-writing tasks, collaborative conversation, and presentation skills to build your confidence ahead of the test.
       </p>
 
       <h2>Exam Fees</h2>
