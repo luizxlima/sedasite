@@ -29,7 +29,7 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center text-white mt-10">
           <span className="inline-block text-seda-primary font-bold tracking-widest uppercase text-sm md:text-base mb-4">
-            Learn with the professionals
+            Learn from experienced professionals
           </span>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6 leading-tight">
             Live Your Dream — <br className="hidden sm:block" />
