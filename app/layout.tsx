@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 const poppins = localFont({
@@ -31,8 +32,22 @@ const poppins = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://seda.college"),
   title: { default: "SEDA College", template: "%s | SEDA College" },
   description: "English language school in Dublin and Cork, Ireland.",
+  openGraph: {
+    siteName: "SEDA College",
+    locale: "en_IE",
+    type: "website",
+    images: [
+      {
+        url: "/images/hero.jpg",
+        width: 1600,
+        height: 900,
+        alt: "SEDA College",
+      },
+    ],
+  },
 };
 
 const coursesLinks = [
@@ -128,9 +143,8 @@ export default function RootLayout({
         <header className="bg-white shadow-md sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
             {/* Logo placeholder */}
-            <Link href="/" className="flex items-center gap-2 font-bold text-xl text-seda-teal">
-              <span className="bg-seda-primary text-seda-teal font-black px-2 py-1 rounded">SEDA</span>
-              <span>College</span>
+                        <Link href="/" className="flex items-center">
+              <Image src="/images/seda-logo.png" alt="SEDA College" width={160} height={48} className="h-12 w-auto" priority />
             </Link>
 
             {/* Desktop nav */}
@@ -211,7 +225,7 @@ export default function RootLayout({
           </div>
 
           {/* Mobile menu (checkbox-driven, no JS required) */}
-          <input type="checkbox" id="mobile-menu-toggle" className="hidden peer/menu" />
+          <input type="checkbox" id="mobile-menu-toggle" className="hidden peer/menu" aria-label="Toggle mobile menu" />
           <nav className="hidden peer-checked/menu:block md:hidden bg-white border-t border-gray-100 px-4 py-4" aria-label="Mobile navigation">
             <div className="flex flex-col gap-1 text-seda-teal font-medium">
               <Link href="/" className="py-2 hover:text-seda-orange transition-colors">Home</Link>
@@ -246,7 +260,9 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* Brand */}
             <div>
-              <div className="text-seda-primary font-black text-xl mb-3">SEDA College</div>
+                            <Link href="/" className="inline-block mb-3">
+                <Image src="/images/seda-logo-white.png" alt="SEDA College" width={140} height={40} className="h-10 w-auto" />
+              </Link>
               <address className="not-italic text-sm text-gray-300 leading-relaxed">
                 68–72 Capel Street<br />
                 Rotunda, Dublin 1<br />

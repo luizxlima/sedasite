@@ -3,7 +3,7 @@ import PageLayout from "@/app/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Accommodation | SEDA College",
-  description: "Learn more about Accommodation at SEDA College.",
+  description: "We have carefully selected each of our Irish Host Families and student residences to ensure you are provided with friendly and comfortable accommodation in Ireland.",
 };
 
 export default function Page() {

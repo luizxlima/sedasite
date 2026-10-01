@@ -3,7 +3,7 @@ import PageLayout from "@/app/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "About Us | SEDA College",
-  description: "Learn more about About Us at SEDA College.",
+  description: "SEDA College has been delivering English language courses in the centre of Dublin since 2009. We provide high-quality, learner-centred English language education.",
 };
 
 export default function Page() {

@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    { "source": "/general-english", "destination": "/courses/general-english", "statusCode": 301 },
+    { "source": "/certtesol", "destination": "/courses/certtesol", "statusCode": 301 },
+    { "source": "/ielts", "destination": "/courses/ielts-preparation", "statusCode": 301 },
+    { "source": "/trinity-ise", "destination": "/courses/trinity-ise", "statusCode": 301 },
+    { "source": "/fce", "destination": "/courses/cambridge-fce-cae", "statusCode": 301 },
+    { "source": "/pet", "destination": "/courses/cambridge-fce-cae", "statusCode": 301 },
+    { "source": "/how-to-apply", "destination": "/admissions/how-to-apply", "statusCode": 301 },
+    { "source": "/entry-requirements", "destination": "/admissions/how-to-apply", "statusCode": 301 },
+    { "source": "/visa-and-legal-requirements", "destination": "/admissions/visa-and-legal-requirements", "statusCode": 301 },
+    { "source": "/refund-policy", "destination": "/admissions/refund-policy", "statusCode": 301 },
+    { "source": "/terms-conditions", "destination": "/admissions/terms-and-conditions", "statusCode": 301 },
+    { "source": "/accommodation", "destination": "/services/accommodation", "statusCode": 301 },
+    { "source": "/health-insurance", "destination": "/services/health-insurance", "statusCode": 301 },
+    { "source": "/social-activities", "destination": "/services/social-activities", "statusCode": 301 },
+    { "source": "/first-day-induction", "destination": "/services/first-day-induction", "statusCode": 301 },
+    { "source": "/team", "destination": "/about-us", "statusCode": 301 },
+    { "source": "/notice-board", "destination": "/", "statusCode": 301 }
+  ]
+}

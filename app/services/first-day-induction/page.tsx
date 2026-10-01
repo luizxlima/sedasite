@@ -3,7 +3,7 @@ import PageLayout from "@/app/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "First Day Induction | SEDA College",
-  description: "Learn more about First Day Induction at SEDA College.",
+  description: "Join our Campus Welcome & Tour before your course begins to explore our facilities, meet the team, and get settled in.",
 };
 
 export default function Page() {

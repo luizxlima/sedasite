@@ -3,7 +3,7 @@ import PageLayout from "@/app/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Health Insurance | SEDA College",
-  description: "Learn more about Health Insurance at SEDA College.",
+  description: "Health insurance covers your medical costs should you require treatment or emergency care while studying in Ireland. Learn about the requirements for international students.",
 };
 
 export default function Page() {

@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    { "source": "/general-english", "destination": "/courses/general-english" },
+    { "source": "/certtesol", "destination": "/courses/certtesol" },
+    { "source": "/ielts", "destination": "/courses/ielts-preparation" },
+    { "source": "/trinity-ise", "destination": "/courses/trinity-ise" },
+    { "source": "/fce", "destination": "/courses/cambridge-fce-cae" },
+    { "source": "/pet", "destination": "/courses/cambridge-fce-cae" },
+    { "source": "/how-to-apply", "destination": "/admissions/how-to-apply" },
+    { "source": "/entry-requirements", "destination": "/admissions/how-to-apply" },
+    { "source": "/visa-and-legal-requirements", "destination": "/admissions/visa-and-legal-requirements" },
+    { "source": "/refund-policy", "destination": "/admissions/refund-policy" },
+    { "source": "/terms-conditions", "destination": "/admissions/terms-and-conditions" },
+    { "source": "/accommodation", "destination": "/services/accommodation" },
+    { "source": "/health-insurance", "destination": "/services/health-insurance" },
+    { "source": "/social-activities", "destination": "/services/social-activities" },
+    { "source": "/first-day-induction", "destination": "/services/first-day-induction" },
+    { "source": "/team", "destination": "/about-us" },
+    { "source": "/notice-board", "destination": "/" }
+  ]
+}

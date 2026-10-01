@@ -3,7 +3,7 @@ import PageLayout from "@/app/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | SEDA College",
-  description: "Learn more about Privacy Policy at SEDA College.",
+  description: "Learn how SEDA College collects and uses personal information for the provision of our services and the daily running of the school.",
 };
 
 export default function Page() {

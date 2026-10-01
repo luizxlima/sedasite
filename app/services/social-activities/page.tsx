@@ -3,7 +3,7 @@ import PageLayout from "@/app/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Social Activities | SEDA College",
-  description: "Learn more about Social Activities at SEDA College.",
+  description: "At SEDA, the learning doesn't stop when your classes end. We offer a wide range of activities to help you practice your English, build your career, and make friends.",
 };
 
 export default function Page() {

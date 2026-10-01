@@ -37,4 +37,22 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Redirects
 
-- `/admissions/entry-requirements` should redirect to the relevant Admissions page (Note: Next.js static export does not support built-in redirects, configure this in your hosting provider).
+The following redirects from the old WordPress URLs must be maintained. A `vercel.json` file is provided for Vercel deployments. Note that Vercel handles trailing-slash variants automatically. If you deploy to Firebase Hosting, this same map must be added to `firebase.json`.
+
+- `/general-english` → `/courses/general-english`
+- `/certtesol` → `/courses/certtesol`
+- `/ielts` → `/courses/ielts-preparation`
+- `/trinity-ise` → `/courses/trinity-ise`
+- `/fce` → `/courses/cambridge-fce-cae`
+- `/pet` → `/courses/cambridge-fce-cae`
+- `/how-to-apply` → `/admissions/how-to-apply`
+- `/entry-requirements` → `/admissions/how-to-apply`
+- `/visa-and-legal-requirements` → `/admissions/visa-and-legal-requirements`
+- `/refund-policy` → `/admissions/refund-policy`
+- `/terms-conditions` → `/admissions/terms-and-conditions`
+- `/accommodation` → `/services/accommodation`
+- `/health-insurance` → `/services/health-insurance`
+- `/social-activities` → `/services/social-activities`
+- `/first-day-induction` → `/services/first-day-induction`
+- `/team` → `/about-us`
+- `/notice-board` → `/`
