@@ -10,28 +10,26 @@ export default function HowToApplyPage() {
   return (
     <AdmissionsLayout title="How To Apply">
       <p>
-        You can apply to SEDA through a local agent in your country, or directly to the school. We’ll be happy to help you step out of your comfort zone and become part of this unforgettable experience!
+        Applying to SEDA is simple. You can apply through one of our local agents in your country or apply directly to the school. Whichever option you choose, our team will guide you through the process and help you prepare for your time in Ireland.
       </p>
 
-      <p>
-        If you want to apply directly to the school, email us at <a href="mailto:info@seda.ie">info@seda.ie</a> or call us on <a href="tel:+35314734915">+353 1 473 4915</a>.
-      </p>
-
-      <p>
-        Some students wishing to study in Ireland require a study visa, others do not. All EU students can study in Ireland without a study visa. Other non-EU students may need a study visa.
-      </p>
-
-      <p>
-        We always have someone here in the school who can help you get all the paperwork ready for your visit to the immigration office.
-      </p>
-
-      <p>
-        SEDA can arrange for someone to pick you up at the airport and take you directly to your accommodation.
-      </p>
-
-      <p>
-        Once you have completed your level test, you will receive an email informing you of when your class will start, your level, and your class number. Students always start their course on a Monday.
-      </p>
+      <ol className="list-decimal pl-6 space-y-4 mt-6">
+        <li>
+          You can apply through one of our local agents or directly to SEDA. If you would like to apply directly, contact us at <a href="mailto:info@seda.ie">info@seda.ie</a> or call us on <a href="tel:+35314734915">+353 1 473 4915</a>.
+        </li>
+        <li>
+          Depending on your nationality and the length of your course, you may need a visa to study in Ireland. EU students do not need a study visa, while some students from outside the EU may need one.
+        </li>
+        <li>
+          Our team can help you understand the documents you need and prepare for your immigration appointment, where applicable. If you need accommodation, we can also help you arrange a place to stay during your time in Ireland.
+        </li>
+        <li>
+          If you would like help getting from the airport to your accommodation, SEDA can arrange an airport transfer for you. A member of our transfer service will meet you at the airport and take you directly to your accommodation.
+        </li>
+        <li>
+          Before starting your course, you will complete an English level test. This allows us to place you in the class that is most suitable for your level. Students start their course on a Monday. On your first day, you will take part in our induction and receive the information you need to settle into life at SEDA. You will meet the team, learn more about the school and your course, and get to know the campus and the services available to you.
+        </li>
+      </ol>
     </AdmissionsLayout>
   );
 }

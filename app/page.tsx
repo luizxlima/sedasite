@@ -99,7 +99,7 @@ export default function Home() {
             <Link href="/courses/certtesol" className="group">
               <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all p-8 border-t-4 border-seda-primary h-full flex flex-col">
                 <h3 className="text-xl font-bold text-seda-teal mb-3 group-hover:text-seda-orange transition-colors">
-                  CertTESOL
+                  Trinity CertTESOL
                 </h3>
                 <p className="text-gray-600 flex-grow mb-6 leading-relaxed">
                   Trinity College London teacher-training certificate, 130 contact hours
@@ -191,52 +191,56 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── 4. Campuses ───────────────────────────────────────────── */}
+            {/* ── 4. Campuses ───────────────────────────────────────────── */}
       <section className="py-20 bg-seda-bg border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-black text-seda-teal mb-4">Our Campuses</h2>
             <div className="w-24 h-1 bg-seda-primary mx-auto rounded-full" />
-            <p className="text-gray-600 mt-6 max-w-2xl mx-auto text-lg">
-              Study right in the heart of two of Ireland&apos;s most vibrant cities.
-            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="space-y-20">
             {/* Dublin Campus */}
-            <div className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col group">
-              <div className="relative h-64 w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/location.jpg"
                   alt="SEDA College Dublin location"
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover"
                 />
               </div>
-              <div className="p-8 text-center border-t-4 border-seda-teal flex-grow">
-                <h3 className="text-2xl font-bold text-seda-teal mb-3">Dublin</h3>
-                <p className="text-gray-600">
-                  68–72 Capel Street<br />
-                  Rotunda, Dublin 1
+              <div>
+                <h2 className="text-3xl font-black text-seda-teal mb-2">SEDA Dublin</h2>
+                <h3 className="text-xl font-medium text-seda-orange mb-6">Established in 2009</h3>
+                <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+                  Our Dublin campus is a purpose-built college located in the heart of Dublin city centre, with 36 classrooms and dedicated spaces for learning and student support. The campus brings together students from around the world, creating a truly international learning community.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Studying at SEDA Dublin gives students the opportunity to develop their English while experiencing life in Ireland's capital city, with the city's shops, cafés, cultural attractions and transport links all close by.
                 </p>
               </div>
             </div>
 
             {/* Cork Campus */}
-            <div className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col group">
-              <div className="relative h-64 w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1">
+                <h2 className="text-3xl font-black text-seda-teal mb-2">SEDA Cork</h2>
+                <h3 className="text-xl font-medium text-seda-orange mb-6">Opened in 2023</h3>
+                <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+                  Our Cork campus offers stunning views of the historic city centre and features 20 classrooms, combining the character of its heritage surroundings with contemporary learning spaces.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Located in one of Ireland's most welcoming and vibrant cities, SEDA Cork provides a friendly and supportive environment for students from around the world. Students can develop their English, meet people from different cultures and experience life in Cork while studying in a modern learning environment.
+                </p>
+              </div>
+              <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl order-1 lg:order-2">
                 <Image
                   src="/images/about-us.jpg"
                   alt="SEDA College Cork location"
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover"
                 />
-              </div>
-              <div className="p-8 text-center border-t-4 border-seda-orange flex-grow">
-                <h3 className="text-2xl font-bold text-seda-teal mb-3">Cork</h3>
-                <p className="text-gray-600">
-                  Cork city centre
-                </p>
               </div>
             </div>
           </div>

@@ -38,23 +38,22 @@ export const metadata: Metadata = {
 const coursesLinks = [
   { href: "/courses/general-english", label: "General English" },
   { href: "/courses/ielts-preparation", label: "IELTS Preparation" },
-  { href: "/courses/certtesol", label: "CertTESOL" },
+  { href: "/courses/certtesol", label: "Trinity CertTESOL" },
   { href: "/courses/trinity-ise", label: "Trinity ISE" },
   { href: "/courses/cambridge-fce-cae", label: "Cambridge FCE / CAE" },
 ];
 
-const admissionsLinks = [
+const studentInfoLinks = [
   { href: "/admissions/how-to-apply", label: "How to Apply" },
-  { href: "/admissions/entry-requirements", label: "Entry Requirements" },
   { href: "/admissions/visa-and-legal-requirements", label: "Visa & Legal Requirements" },
   { href: "/admissions/fees", label: "Fees" },
   { href: "/admissions/refund-policy", label: "Refund Policy" },
   { href: "/admissions/terms-and-conditions", label: "Terms & Conditions" },
+  { href: "/services/health-insurance", label: "Health Insurance" },
 ];
 
 const servicesLinks = [
   { href: "/services/accommodation", label: "Accommodation" },
-  { href: "/services/health-insurance", label: "Health Insurance" },
   { href: "/services/social-activities", label: "Social Activities" },
   { href: "/services/first-day-induction", label: "First Day Induction" },
 ];
@@ -157,13 +156,13 @@ export default function RootLayout({
                 </div>
               </div>
 
-              {/* Admissions dropdown */}
+              {/* Student Information dropdown */}
               <div className="group relative">
                 <button className="flex items-center gap-1 hover:text-seda-orange transition-colors cursor-pointer">
-                  Admissions <span className="text-xs">▾</span>
+                  Student Information <span className="text-xs">▾</span>
                 </button>
                 <div className="absolute left-0 top-full mt-1 hidden group-hover:flex flex-col bg-white shadow-xl border border-gray-100 rounded-xl w-56 py-2 z-20">
-                  {admissionsLinks.map((l) => (
+                  {studentInfoLinks.map((l) => (
                     <Link
                       key={l.href}
                       href={l.href}
@@ -221,8 +220,8 @@ export default function RootLayout({
               {coursesLinks.map((l) => (
                 <Link key={l.href} href={l.href} className="py-1.5 pl-3 text-sm hover:text-seda-orange transition-colors">{l.label}</Link>
               ))}
-              <p className="py-1 text-xs uppercase tracking-widest text-gray-400 mt-2">Admissions</p>
-              {admissionsLinks.map((l) => (
+              <p className="py-1 text-xs uppercase tracking-widest text-gray-400 mt-2">Student Information</p>
+              {studentInfoLinks.map((l) => (
                 <Link key={l.href} href={l.href} className="py-1.5 pl-3 text-sm hover:text-seda-orange transition-colors">{l.label}</Link>
               ))}
               <p className="py-1 text-xs uppercase tracking-widest text-gray-400 mt-2">Services</p>
@@ -273,11 +272,11 @@ export default function RootLayout({
               </ul>
             </div>
 
-            {/* Admissions */}
+            {/* Student Information */}
             <div>
-              <h3 className="text-seda-primary font-semibold mb-3 uppercase text-xs tracking-widest">Admissions</h3>
+              <h3 className="text-seda-primary font-semibold mb-3 uppercase text-xs tracking-widest">Student Information</h3>
               <ul className="space-y-1.5 text-sm">
-                {admissionsLinks.map((l) => (
+                {studentInfoLinks.map((l) => (
                   <li key={l.href}>
                     <Link href={l.href} className="text-gray-300 hover:text-seda-primary transition-colors">
                       {l.label}

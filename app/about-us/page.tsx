@@ -17,13 +17,11 @@ export default function Page() {
 
 <h3>Our Mission</h3>
 
-<p>SEDA College fosters a community of learners that challenges our students to expand their horizons and equip them with the communication skills our globalized world requires.</p>
+<p>At SEDA, we are committed to providing high-quality, learner-centred English language education that enables students to communicate effectively, succeed academically and professionally, and participate confidently in a global society. Our programmes are aligned with the CEFR and international standards and are delivered in inclusive, supportive and academically rigorous learning environments. We develop learners' communicative competence, critical thinking and autonomy through structured programmes, ongoing teacher development, academic support, and effective assessment and feedback. We are committed to continuous improvement through reflective teaching, academic governance and stakeholder feedback, while providing the student support and welfare structures that help every learner make the most of their experience at SEDA.</p>
 
 <h3>Our Values</h3>
 
-<p>Quality is our Core Value. At SEDA, quality is delivered through our dedication and passion for Language and Communication Education.</p>
-
-<p>We guarantee excellence through meticulous attention to detail and operational efficiency, ensuring our procedures and policies remain dynamic rather than static. We believe in “closing the quality loop”— a commitment to continuous evaluation and improvement that ensures the highest standards for every student.</p>
+<p>At SEDA, our work is guided by a commitment to quality, learner-centred education and continuous improvement. We maintain high standards in teaching, learning and assessment, while designing programmes that respond to our students' needs, goals and progression pathways. We value equality, diversity and inclusion and strive to create a welcoming environment where every learner is respected and supported. Professional integrity and accountability guide the way we work, with transparent and responsible practices across the organisation. We also believe in collaboration, actively engaging students, staff and management in quality assurance and improvement. Through ongoing monitoring, reflection and feedback, we continually look for ways to enhance the learning experience and the services we provide.</p>
 
 <h2>Our Team and Methodology</h2>
 
